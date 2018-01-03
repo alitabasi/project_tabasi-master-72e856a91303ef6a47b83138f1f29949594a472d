@@ -1,0 +1,336 @@
+@font-face {
+src: url('open-sans-gh-pages/fonts/Bold/OpenSans-Bold.eot');
+ src: url('open-sans-gh-pages/fonts/Bold/OpenSans-Bold.ttf');
+ src: url('open-sans-gh-pages/fonts/Bold/OpenSans-Bold.woff');
+ src: url('open-sans-gh-pages/fonts/Bold/OpenSans-Bold.woff2');
+ src: url('fonts/fontawesome-webfont.svg');
+
+}
+@font-face {
+ font-family: 'bykan';
+ src: url('fonts/1.eot');
+ /*src: url('fonts/2.eot?#iefix') format('embedded-opentype');*/
+ src: url('fonts/3.woff') format('woff');
+ src: url('fonts/2.ttf')  format('truetype');
+
+}
+
+body
+{
+ margin: 0;
+ padding: 0;
+ font-family: bykan;
+ overflow-x: hidden;
+ font-size: 14px;
+}
+#box
+{
+ width: 100%;
+ height: 100px;
+ background-color: #f5f7ff;
+}
+
+.gly-spin {
+ -webkit-animation: spin 2s infinite linear;
+ -moz-animation: spin 2s infinite linear;
+ -o-animation: spin 2s infinite linear;
+ animation: spin 2s infinite linear;
+}
+#heade
+{
+ height: 61px;
+ background-color: #b09955;
+ text-align: center;
+ width: 100%;
+}
+#text
+{
+ font-family:"bold";
+ color: white;
+ font-size: 30px;
+ margin-left:15%;
+ padding:7px;
+}
+#social
+{
+ margin-right: -18px;
+ text-align: center;
+ opacity: 0.5;
+}
+#prchm
+{
+ position: absolute;
+ top: 0;
+}
+.navbar-nav
+{
+ font-size: 20px;
+ margin-right: 260px;
+ font-family: bold;
+}
+.tabbable-panel
+{
+ position: absolute;
+ margin-top: 0;
+}
+#rgb
+{
+background-color: black;
+ display: inline-block;
+ padding: 1px;
+}
+
+#inputHelpBlock
+{
+width: 30%;
+display: inline;
+}
+#inputtab
+{
+ display: inline-block;
+ width: 87%;
+}
+#input
+{
+display: inline;
+}
+
+.btn-default1
+{
+ border-radius: 50%;
+ background-color: #b09954;
+ color: white;
+}
+
+#texttab
+{
+ font-family:bykan;
+ font-size: 25px;
+ margin-right: 18px;
+}
+#tabbar
+{
+background-color: white;
+}
+.nav-tabs > li {
+ float: right;
+ background: black;
+ margin:0 0 0 3px;
+ margin-bottom: 0px;
+}
+.tabbable-panel
+{
+ position: absolute;
+ /* margin-top: 257px; */
+ width: 62%;
+ /* margin-right: 15%; */
+ /* margin-left: 50px; */
+ /* bottom: 50px; */
+ margin-top: 5%;
+ margin-right: auto;
+ margin-left: auto;
+ left: 0;
+ right: 0;
+}
+#bc {
+ /* background-color: #f8f8f8; */
+ background-image: url(images/Safari.jpg);
+ width: 100%;
+ background-repeat-x: no-repeat;
+ height: 554px;
+ background-size: cover;
+ position: relative;
+}
+.btn-success
+{
+ margin-right: 31px;
+ background-color: #B09954;
+ border-color: #000000;;
+ margin-top: 30px
+}
+#home1
+{
+ height: 200px;
+}
+:root .css3-metro-dropdown::after
+{
+ position: absolute;
+ top: 0;
+ right: 0;
+ display: block;
+ width: 32px;
+ font-size: 12px;
+ line-height: 34px;
+ text-align: center;
+ -webkit-pointer-events: none;
+ -moz-pointer-events: none;
+ pointer-events: none;
+}
+:root .css3-metro-dropdown select
+{
+ height: 34px;
+ border: 0;
+ vertical-align: middle;
+ font: normal 12px/14px "Segoe UI", Arial, Helvetica, Sans-serif;
+ outline: 0 none;
+ background-color: #b09955;
+}
+:root .css3-metro-dropdown option
+{
+ color: #333;
+}
+.bfh-selectbox > .bfh-selectbox-toggle
+{
+ border-style: none;
+ background-color: #b09955;
+}
+.btn-default2
+{
+ border-style: none;
+ background-color: white;
+}
+.bfh-selectbox-option input-medium
+{
+ background-color: #b09955;
+ border-style: none
+}
+.btn-primary
+{
+ border-radius: 50%;
+ margin-top: 37px;
+ margin-right: auto;
+ margin-left: auto;
+ display: -webkit-box;
+ background-color:#b09955 ;
+ height: 60px;
+ width: 60px;
+ border-style: hidden;
+}
+.btn-primary
+{
+color:  #f82a15;
+}
+.dropdown-toggle
+{
+ color: #0d0311;
+ opacity: 0.8;
+
+}
+.btn-primary:hover {
+ color: #fff;
+ background-color: #303b35;
+ border-color: #303b35;
+}
+.btn-success:hover {
+ color: #fff;
+ background-color: #303b35;
+ border-color: #303b35;
+}
+#star {
+ position: absolute;
+ top: 68em;
+ left: 37em;
+ padding: 22px;
+ line-height: 35px;
+ /* background: #5d4046; */
+ /* background-color: snow; */
+ background: none;
+ border: none;
+ color: #fdfdff;
+ z-index: 11111;
+}
+/*slider*/
+.team-sec{float: left;width: 100%;}
+.team .photo {width: 250px; height: 250px; display: inline-block; overflow: hidden; position: relative; }
+.photo-shadow {position: absolute; z-index: -1; top: 12px; left: 16px; bottom: -10px; border: 1px solid #E3E3E3; height: 250px; width: 246px; background: #fff; }
+.col-item{position: relative;}
+.team{margin-top: 60px;}
+.team .photo img{width: 100%;    vertical-align: middle;position: relative;}
+.social-connect{margin-top: 13px;}
+.info{margin-top: 22px;}
+.info .name{font-size: 18px;font-weight: 600;margin-bottom: 2px;}
+.info .degination{font-size: 16px;font-weight: 300;font-style: italic;color: #8B8B8B;}
+.social-connect a{ display: inline-block; border: 1px solid #E3E3E3; font-size: 14px; color: #919191; width: 24px; height: 24px; text-align: center; line-height: 24px;margin-right: 4px;}
+.social-connect a .fa{margin: 0;}
+.social-connect a:hover{background-color: #4EBEE9;color: #fff;} .carousel-line{    border: 1px solid #ddd; height: 320px; position: absolute; bottom: -90px; width: 110%; left: -5.5%;}
+.carousel-line > .controls{position: absolute; bottom: -16px; left: 50%; margin-left: -50px; background: #fff; padding: 0px 20px; color: #000;}
+.carousel-line > .controls > a{    color: #868686; font-size: 24px; font-weight: 300;}
+/*slider*/
+
+#footer
+{
+ background: #262626;
+ height: 306px;
+ width: 100%;
+ /* position: absolute; */
+ /* top: 150px; */
+ /* right: -26px; */
+ margin-top: 124px;
+
+}
+
+#carousel-example
+{
+ position: relative;
+ margin-top: auto;
+}
+#majazi
+{
+ display: inline;
+ margin-right: -25px;
+ /*background-color: #b09955;*/
+ padding: 21px;
+ text-space: 7px;
+ word-spacing: 10px;
+}
+.btn-success4
+{
+ background-color:#b09955 ;
+ border-radius: 50%;
+ /*border-style: none;*/
+border-color: black;
+}
+.nav>li>a{
+ background: transparent;
+}
+.nav>li>a:hover{
+ background: transparent;
+}
+
+.nav>li>a:visited
+{
+ background: transparent;
+}
+.nav>li>a:focus{
+ background: transparent;
+}
+.nav>li>a:active{
+ background: transparent;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover
+{
+background: transparent;
+}
+#call
+{
+ opacity: 0.7;
+
+}
+.dropdown:hover
+{
+ color: black;
+}
+
+.nav>li>a:active {
+ background-color: #b09955;
+}
+
+.nav>li>a:hover
+{
+ background-color: #b09955 ;
+}
+
+a:focus, a:hover {
+  color: #000000;
+ text-decoration: underline;
+}

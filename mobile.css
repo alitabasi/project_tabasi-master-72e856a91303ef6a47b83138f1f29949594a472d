@@ -1,0 +1,73 @@
+.dropdown
+{
+    margin-top:5px;
+
+}
+
+#text
+{
+padding: 0;
+margin: 0;
+margin-right: 45px;
+margin-top: 7px;
+}
+
+
+.selectpicker
+{
+    margin-left: -30px;
+
+}
+
+.nav-tabs
+{
+    display: inline-flex;
+}
+.tabbable-line
+{
+    margin-top: -30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#date_btn
+{
+    margin-left: auto;.
+    margin-right: 0px;
+}
+.tabbable-line
+{
+    margin-top: -30px;
+}
+.btn-success
+{
+    margin-top: 0px;
+}
+.btn-primary
+{
+
+    margin-right: auto;
+    margin-left:auto;
+}
+p
+{
+    margin-left: 38px;
+}
+p1
+{
+    margin-right: 55px;
+}
+#amnit
+
+{
+    margin-left: 41px;
+}
+#majazi
+{
+
+}
+
+#footer
+{
+    min-height: 545px;
+
+}
