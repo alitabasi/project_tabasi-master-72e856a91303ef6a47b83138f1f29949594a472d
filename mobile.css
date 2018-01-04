@@ -40,7 +40,7 @@ margin-top: 7px;
 }
 .btn-success
 {
-    margin-top: 0px;
+    margin-top: 17px;
 }
 .btn-primary
 {
@@ -69,5 +69,40 @@ p1
 #footer
 {
     min-height: 545px;
+
+}
+
+#date_btn1
+{
+
+    width: 112%;
+    margin-right: -4px;
+}
+
+
+.nav>li>a {
+    padding: 8px 3px 6px 15px;
+    display: flex;
+}
+
+.hotel
+{
+    padding-left: 1px;
+}
+
+
+#inputHelpBlock
+{
+    margin-right: 8px;
+    width: 100%;
+}
+
+#texttab
+{
+    display: table-cell;
+
+}
+#home1 {
+    height: 160px;
 
 }
